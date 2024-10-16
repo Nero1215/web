@@ -1,0 +1,29 @@
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+    "name": "Phone",
+    "description": "A high-end smartphone",
+    "price": 900,
+    "quantity": 10,
+    "category": "Electronics"
+}
+
+### 
+GET http://localhost:5000/api/products
+
+
+### 
+PUT http://localhost:5000/api/products/67104d6fb6bce1970d865f6e
+Content-Type: application/json
+
+{
+  "name": "Updated Phone",
+  "description": "An updated high-end smartphone",
+  "price": 950,
+  "quantity": 12,
+  "category": "Electronics"
+}
+
+###
+DELETE http://localhost:5000/api/products/67104c38b6bce1970d865f6b
