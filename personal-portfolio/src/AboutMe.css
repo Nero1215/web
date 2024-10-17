@@ -1,0 +1,27 @@
+.about-me-container {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px; 
+    position: relative; 
+}
+
+.profile-image {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    max-width: 600px; 
+}
+
+.download-link {
+    position: fixed; 
+    left: 20px; 
+    bottom: 20px; 
+    background-color: white; 
+    padding: 5px 10px; 
+    border: 1px solid #ccc; 
+    text-decoration: none; 
+    color: black; 
+}
